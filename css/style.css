@@ -1,0 +1,14 @@
+.ms-h-fix{
+    height: 20px;
+}
+
+.ms_mt_fix{
+    margin-top: 112px;
+}
+
+
+.ms-bg-img{
+    background-image: url('../img/jumbo-bg.png');
+    background-position: center;
+    background-size: cover;
+}
