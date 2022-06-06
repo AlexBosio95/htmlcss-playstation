@@ -1,3 +1,15 @@
+:root{
+    --color-dark-section: #1f1f1f;
+}
+
+/* color */
+
+.ms_bg_newgame{
+    background-color: var(--color-dark-section);
+}
+
+/* common */
+
 .ms-h-fix{
     height: 20px;
 }
@@ -9,7 +21,14 @@
 
 
 .ms-bg-img{
-    background-image: url('../img/jumbo-bg.png');
     background-position: center;
     background-size: cover;
+}
+
+#ms_bg_jumbo{
+    background-image: url('../img/jumbo-bg.png');
+}
+
+#ms_bg_banner{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
