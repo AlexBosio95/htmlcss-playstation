@@ -1,5 +1,6 @@
 :root{
     --color-dark-section: #1f1f1f;
+    --color-gray-psplus: #bebcbb;
 }
 
 /* color */
@@ -8,10 +9,18 @@
     background-color: var(--color-dark-section);
 }
 
+.ms_bg_psplus{
+    background-color: var(--color-gray-psplus);
+}
+
 /* common */
 
 .ms-h-fix{
     height: 20px;
+}
+
+.ms-h-m-fix{
+    height: 60px;
 }
 
 
