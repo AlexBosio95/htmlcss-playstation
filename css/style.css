@@ -1,6 +1,9 @@
 :root{
     --color-dark-section: #1f1f1f;
     --color-gray-psplus: #bebcbb;
+    --color-blue-psnow: #161c3b;
+    --color-blue-footer: #00439c;
+    --color-active: #2d64e6;
 }
 
 /* color */
@@ -13,6 +16,18 @@
     background-color: var(--color-gray-psplus);
 }
 
+.ms_bg_psnow{
+    background-color: var(--color-blue-psnow);
+}
+
+.ms_bg_footer{
+    background-color: var(--color-blue-footer);
+}
+
+.ms_bg_active{
+    background-color: var(--color-active);
+}
+
 /* common */
 
 .ms-h-fix{
@@ -23,16 +38,24 @@
     height: 60px;
 }
 
+.ms-h-l-fix{
+    height: 80px;
+}
+
 
 .ms_mt_fix{
     margin-top: 112px;
 }
 
+/* jumbo img background */
 
 .ms-bg-img{
     background-position: center;
     background-size: cover;
 }
+
+
+/* background image */
 
 #ms_bg_jumbo{
     background-image: url('../img/jumbo-bg.png');
@@ -40,4 +63,88 @@
 
 #ms_bg_banner{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+
+
+
+
+
+
+/* Card Products */
+
+.ms-card-products .bar{
+    height: 2px;
+    background-color: var(--color-active);
+    width: 80%;
+}
+
+.ms-card-products .col:hover img{
+    opacity: 100%;
+}
+
+.ms-card-products .col:hover span{
+    opacity: 100%;
+}
+
+.ms-card-products .col:hover .bar{
+    display: block;
+}
+
+
+
+/* Bonus Hover */
+
+
+.ms-card-products .col img{
+    opacity: 50%;
+}
+
+.ms-card-products .col:first-child img{
+    opacity: 100%;
+}
+
+.ms-card-products .col span{
+    opacity: 50%;
+}
+
+.ms-card-products .col:first-child span{
+    opacity: 100%;
+}
+
+.ms-card-products .col .bar{
+   display: none;
+}
+
+.ms-card-products .col:first-child .bar{
+    display: block;
+}
+
+.ms_card .col{
+    cursor: pointer;
+
+}
+
+.ms_card .col:hover img{
+    transform: translateY(-10px);
+
+}
+
+.ms_borders {
+    position: relative;
+    border: 3px solid transparent;
+    outline: 3px solid var(--color-active);
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .ms-card-products img{
+        max-width: 120px;
+    }
 }
