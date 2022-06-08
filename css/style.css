@@ -83,9 +83,20 @@ body{
     color: var(--color-active);
 }
 
-.show li a::after{
-    content: "\2022";
-    color: var(--color-active);
+
+
+/* Chevron down and up */
+
+.ms_up{
+    display: none;
+}
+
+.show .ms_up{
+    display: inline;
+}
+
+.show .ms_down{
+    display: none;
 }
 
 
