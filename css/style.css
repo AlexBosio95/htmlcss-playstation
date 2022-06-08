@@ -5,6 +5,7 @@
     --color-blue-footer: #00439c;
     --color-active: #2d64e6;
     --color-bt-psplus: #d9dadc;
+    --color-bt-jumbo: #cd3d0f;
 }
 
 /* color */
@@ -31,6 +32,10 @@
 
 .ms_bg_active{
     background-color: var(--color-active);
+}
+
+.ms_bg_bt_jumbo{
+    background-color: var(--color-bt-jumbo);
 }
 
 /* common */
@@ -163,9 +168,25 @@ body{
 
 .ms_borders {
     position: relative;
-    border: 3px solid transparent;
+    border: 3px solid white;
     outline: 3px solid var(--color-active);
 }
+
+/* Button hover */
+
+.ms_button-orange .btn:hover{
+    box-shadow: 0 0 0 3px black, 0 0 0 6px var(--color-bt-jumbo);
+}
+
+.ms_button-black .btn:hover{
+    box-shadow: 0 0 0 3px white, 0 0 0 6px var(--color-dark-section);
+}
+
+.ms_button-active .btn:hover{
+    box-shadow: 0 0 0 3px white, 0 0 0 6px var(--color-active);
+}
+
+
 
 
 
