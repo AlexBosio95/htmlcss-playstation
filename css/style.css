@@ -4,6 +4,7 @@
     --color-blue-psnow: #161c3b;
     --color-blue-footer: #00439c;
     --color-active: #2d64e6;
+    --color-bt-psplus: #d9dadc;
 }
 
 /* color */
@@ -14,6 +15,10 @@
 
 .ms_bg_psplus{
     background-color: var(--color-gray-psplus);
+}
+
+.ms_bt_bg_psplus{
+    background-color: var(--color-bt-psplus);
 }
 
 .ms_bg_psnow{
@@ -74,6 +79,11 @@ body{
 /* Nav bar */
 
 .ms_bull::before{
+    content: "\2022";
+    color: var(--color-active);
+}
+
+.show li a::after{
     content: "\2022";
     color: var(--color-active);
 }
