@@ -172,6 +172,15 @@ body{
     outline: 3px solid var(--color-active);
 }
 
+/* nav hover */
+
+.ms_shadow .col:hover {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
 /* Button hover */
 
 .ms_button-orange .btn:hover{
